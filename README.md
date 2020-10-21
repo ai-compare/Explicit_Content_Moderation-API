@@ -18,7 +18,7 @@ headers = {  'Authorization': 'Bearer your API Key'}
 url = 'https://www.ai-compare.com/v1/pretrained/vision/explicit_content_detection'
 ```
 ### Select parameters 
-Set your file (.jpg, .png, .jpeg, .tiff), the attempted objects, and providers APIs you want to run :
+Set your file (.jpg, .png, .jpeg, .tiff) and providers APIs you want to run :
 ```python
 payload = {'providers': '[\'google_cloud\', \'cognitives_service\', \'aws\', \'ibm\']'}
 files = [  ('files', open('Picture/example.jpg','rb'))]
